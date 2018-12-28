@@ -1,0 +1,1 @@
+obj_chan_bg.x = lerp(obj_chan_bg.x, 130,.20);

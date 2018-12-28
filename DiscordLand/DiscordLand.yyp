@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
+            "Value": {
+                "id": "df2d5926-64c2-4906-aeba-e052c65bc2c3",
+                "resourcePath": "options\\switch\\options_switch.yy",
+                "resourceType": "GMSwitchOptions"
+            }
+        },
+        {
+            "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
+            "Value": {
+                "id": "55dac459-7111-4f38-ace2-9ac0c6483d88",
+                "resourcePath": "options\\ps4\\options_ps4.yy",
+                "resourceType": "GMPS4Options"
+            }
+        },
+        {
             "Key": "4837a2fa-0ce8-4c9f-8295-1536c0c564cd",
             "Value": {
                 "id": "d5019d16-a2f0-43cc-a112-0e3b558c5193",
@@ -127,6 +143,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "7320580f-c5f1-49bf-8161-ec3b4463bd6e",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "7c69b52a-a559-4aa1-af9d-21cfe3b8839c",
             "Value": {
                 "id": "58a0119a-dfa8-4bba-980b-11bad4312969",
@@ -143,11 +167,35 @@
             }
         },
         {
+            "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
+            "Value": {
+                "id": "30905985-d44f-43f9-b9ea-b804c1d0636a",
+                "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
+                "resourceType": "GMWindowsUAPOptions"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "2c7da28d-cbcd-4fae-99f0-228925180ab2",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "8a1f2826-54d1-4ccf-866d-503828eff6c0",
             "Value": {
                 "id": "744b3e85-1839-4d3d-b0ee-01763d5f5be1",
                 "resourcePath": "views\\8a1f2826-54d1-4ccf-866d-503828eff6c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "a505b549-1be8-4ae1-85d6-089caab49776",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -164,6 +212,14 @@
                 "id": "63367582-9df0-4bb8-8777-c73a040830e7",
                 "resourcePath": "views\\9ef0d077-5cff-417b-8b24-7fd67311211b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "ed2f9ab2-cf45-4c97-935b-d8a1f790270b",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -263,6 +319,14 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "3675a1e9-2dcd-452a-90b4-3367ca79b8d7",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "e5d695ba-01dd-426f-82b1-91cb383e1814",
             "Value": {
                 "id": "77fa7010-57da-45b2-a19c-dab2895615b2",
@@ -300,6 +364,14 @@
                 "id": "4a7f7f47-e497-4f96-ab5f-9c2cea3483f3",
                 "resourcePath": "views\\f595092b-bf86-49b5-be5d-ae1d6436c1df.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
+            "Value": {
+                "id": "b3aef53a-d7f9-4a49-b615-bc71fba1ea78",
+                "resourcePath": "options\\xboxone\\options_xboxone.yy",
+                "resourceType": "GMXBoxOneOptions"
             }
         }
     ],
