@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "d1c6ca3b-5629-4a06-a91c-3506d1894910",
+            "Value": {
+                "id": "1556febd-8500-48cd-a024-31c2f5498958",
+                "resourcePath": "scripts\\scr_mergeArray\\scr_mergeArray.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d60930e9-f7b8-4a5c-ac99-c2c82c453c33",
             "Value": {
                 "id": "6a1f6472-d0d9-498e-ba03-25bc9fa28f60",
@@ -376,7 +384,7 @@
         }
     ],
     "script_order": [
-        
+        "d1c6ca3b-5629-4a06-a91c-3506d1894910"
     ],
     "tutorial": ""
 }
