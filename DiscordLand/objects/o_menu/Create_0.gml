@@ -1,23 +1,21 @@
+// variables
 
-menu_x = x;
-menu_y = y;
-button_h = 24;
-button_w = 256;
-button_padding = 8;
+cam_x = camera_get_view_x(view_camera[0]);
+cam_y = camera_get_view_x(view_camera[0]);
+cam_h = camera_get_view_height(view_camera[0]);
+cam_w = camera_get_view_width(view_camera[0]);
+
+x = cam_x;
+y = cam_y;
+inc = 0;
+menu_w = 240;
 
 // buttons
-button[0] = "New Game";
-button[1] = "Load Game"
-button[2] = "Options";
-button[3] = "Exit";
+
+button[0] = [ "Game" , [0,0] , 0 , false , [64,64] ];
+button[1] = [ "Options", [0,0] , 0, false , [64,64] ];
+button[2] = [ "Exit", [0,0] , 0 , false , [64,64] ];
+
 buttons = array_length_1d(button);
 
-menu_index = 0;
-last_selected = 0;
-
-var i = 0;
-repeat(buttons)
-{
-	unfold[i] = 0;
-	i++;
-}
+// Table Contents: [ String ID , number scale , boolean being hovered over ]

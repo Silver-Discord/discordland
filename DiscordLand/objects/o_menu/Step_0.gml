@@ -1,19 +1,14 @@
 
-menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
-
-menu_index += menu_move;
-if (menu_index < 0) menu_index = buttons - 1;
-if (menu_index > buttons-1) menu_index = 0;
-
-var i = 0;
-repeat(buttons)
+for (i=0 ; buttons-1 ; i++)
 {
-	if (unfold[i] == 1) i++;
+	var but_pos = button[i][2];
+	var but_size = button[i][5];
 	
-	if (i < buttons) unfold[i] = min(1, unfold[i] + .02);
-	if (i + 1 < buttons) unfold[i+1] = min(1, unfold[i+1] + .005);
+	if (mouse_x > but_pos[1] & mouse_x < but_pos[1] + but_size[1] & mouse_xy > but_pos[2] & mouse_y < but_pos[2]  + but_size[2] )
+	{
+		button[i][4] = true;
+	} else
+	{
+		button[i][4] = false;
+	}
 }
-
-last_selected = menu_index;
-
-if (menu_index != last_selected) audio_play_sound(snd_menu_switch,1,false);
